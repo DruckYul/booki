@@ -1,7 +1,10 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-
+    max-width: 1440px;
+    max-height: 1889.02px;
+    top: 188px;
+    left: 1599px;
 }
 
 :root {
@@ -10,17 +13,28 @@
     --filter-bg-color: #DEEBFF;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* ******* Header ******************* */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0 80px;
+    padding: 0px 0 80px;
 }
 
 .logo-head img {
-    height: 79px;
+    height: 19px;
+    width: 61.09px;
+}
+
+nav {
+    width: 244px;
+    height: 35px;
+    gap: 68px;
 }
 
 nav ul {
@@ -33,7 +47,8 @@ nav ul {
 nav button {
     background-color: transparent;
     border: none;
-    cursor: pointer;
+
+
 }
 
 
@@ -43,14 +58,40 @@ nav button:hover::before {
     height: 2px;
     position: absolute;
     background-color: var(--main-color);
-    transform: translateY(-83px);
+    transform: translateY(-26px);
     transition: 0.3s;
 }
 
 nav button:hover {
     color: var(--main-color);
     transition: 0.3s;
+}
 
+/* ************titre****************** */
+.Info-group {
+    padding-left: 5px;
+}
+
+.headline h1 {
+    font-style: 22px;
+}
+
+.headline p {
+    font-size: 16px;
+}
+
+.Search-bar {
+    display: flex;
+    border: 1p;
+    border-radius: 15px;
+}
+
+.Search-bar button {
+    border: none;
+}
+
+.recherche input {
+    border: none;
 }
 
 /* ***************** */
